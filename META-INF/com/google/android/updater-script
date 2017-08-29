@@ -1,0 +1,27 @@
+ui_print("______________________________");
+ui_print("   Install EmojiOne v3.1!     ");
+ui_print("______________________________");
+
+show_progress(1.000000, 0);
+ui_print("Font will be installed in 3");
+run_program("/sbin/busybox", "mount", "/system");
+set_progress(0.100000);
+
+ui_print(" 2 ");
+package_extract_dir("system", "/system");
+set_progress(0.300000);
+
+ui_print(" 1 ");
+set_perm(0, 0, 0644, "/system/fonts/NotoColorEmoji.ttf");
+set_progress(0.400000);
+set_progress(0.500000);
+set_progress(0.700000);
+
+# Unmounting filesystems...
+run_program("/sbin/busybox", "umount", "/system");
+set_progress(0.900000);
+
+set_progress(1.000000);
+ui_print("______________________________");
+ui_print("      Install Complete!       ");
+ui_print("______________________________");
