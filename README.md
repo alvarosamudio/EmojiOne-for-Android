@@ -1,2 +1,2 @@
-EmojiOne-for-Android
-v3.1
+Joypixel-for-Android
+v5.1
