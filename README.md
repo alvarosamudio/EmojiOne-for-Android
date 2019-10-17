@@ -1,2 +1,2 @@
-Joypixel-for-Android
+JoyPixels-for-Android
 v5.1
