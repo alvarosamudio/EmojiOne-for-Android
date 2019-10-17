@@ -1,6 +1,6 @@
-ui_print("______________________________");
-ui_print("   Install EmojiOne v3.1!     ");
-ui_print("______________________________");
+ui_print("_______________________________");
+ui_print("   Install JoyPixels v5.1!     ");
+ui_print("_______________________________");
 
 show_progress(1.000000, 0);
 ui_print("Font will be installed in 3");
